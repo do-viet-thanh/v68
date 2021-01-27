@@ -3,11 +3,8 @@
 <meta charset="UTF-8">
 <title>Facebook - Đăng nhập hoặc đăng kí</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="Style_card.css">
-<style>
+<link rel="stylesheet" href="style.css">
 
-
-</style>
 <script src=""></script>
 <body>
 
