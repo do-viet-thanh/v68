@@ -1,0 +1,39 @@
+.about-inner{
+    display: flex;
+}
+.about-description{
+    margin: 15px;
+}
+.image{
+    border-right: 1px solid #1c1e21;
+    height: 200px;
+    width: 155px;
+}
+.about-list-infomation{
+    display: flex;
+}
+.about-items{
+    color: #355198;
+    margin: 5px;
+}
+.info{
+    margin: 5px;
+}
+.tittle{
+    color: #355198;
+}
+.name{
+    margin: 0px;
+}
+.position{
+    margin: 0px;
+    font-style:oblique;
+}
+.image{
+    margin: 15px;
+}
+img{
+    width: 130px;
+    height: 130px;
+    padding-top: 38px;
+}
