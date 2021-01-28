@@ -84,10 +84,10 @@ input:focus {
 .create_page:hover{
     text-decoration: underline;
 }
-.id{
+.login_top input[name='id']{
     margin: 15px;
 }
-.password{
+.login_top input[name="password"]{
     margin-left: 15px;
     margin-bottom: 15px;
     margin-right: 15px;
