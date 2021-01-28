@@ -2,7 +2,7 @@
 body{
     background-color: #eaefef;
 }
-.wapper{
+.wrapper{
     display: flex;
 
 }
@@ -59,10 +59,10 @@ input{
 input{
     cursor: auto;
 }
-.dangnhap{
+.button_login{
     cursor: pointer;
 }
-.taotaikhoanmoi{
+.create_page{
     cursor: pointer;
 }
 input:focus {
@@ -72,16 +72,16 @@ input:focus {
     box-shadow: 0 0 0 2px #e7f3ff;
     caret-color: #1877f2;
 }
-.dangnhap:hover{
+.button_login:hover{
     background: #166fe5;
 }
-.taotaikhoanmoi:hover{
+.new_account:hover{
     background: #42a52a;
 }
-.quenmatkhau:hover{
+.forgot_password:hover{
     text-decoration: underline;
 }
-.taotrang:hover{
+.create_page:hover{
     text-decoration: underline;
 }
 .id{
@@ -93,7 +93,7 @@ input:focus {
     margin-right: 15px;
 }
 
-.dangnhap {
+.button_login {
     background-color: #1877f2;
     border-radius: 6px;
     font-size: 20px;
@@ -109,7 +109,7 @@ input:focus {
     color: white;
     margin-bottom: 10px;
 }
-.quenmatkhau {
+.forgot_password {
     color: #1877f2;
     font-size: 14px;
     font-weight: 500;
@@ -130,7 +130,7 @@ hr{
     border-right-width: 0px;;
 
 }
-.taotaikhoanmoi{
+.new_account{
 
     padding-left: 16px;
     padding-right: 16px;
@@ -152,7 +152,7 @@ hr{
     padding-top: 0;
 
 }
-.taotrang{
+.create_page{
     color: black;
     font-weight: bold;
     font-size: 14px;
