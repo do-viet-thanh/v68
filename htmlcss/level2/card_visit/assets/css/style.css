@@ -1,88 +1,59 @@
-.about-inner {
-    height: 280px;
-    border: 1px solid darkgray;
-    margin-left: 30px;
-    display: flex;
-    width: 458px;
-    margin-top: 8px;
-}
-.about-description {
-    margin-left: 20px;
-}
+
 body {
     text-shadow: 0 0 0 rgb(255 255 255);
     margin: 15px;
     font-family: sans-serif;
     background: #808080a6;
 }
-.img_logo {
-    width: 190px;
-    height: 150px;
-    margin-top: 25px;
+.wrapper {
+    padding: 50px;
+    margin: 0 auto;
+    background: white;
+    width: 510px;
 }
 .wrapper_top {
-    width: 490px;
-    height: 340px;
-    padding-top: 1px;
-    margin-left: 50px;
     text-align: center;
 }
 .cover_card {
-    background: #2090d0 ;
-    margin-left: 30px;
-    height: 270px;
+     background: #2090d0 ;
+     padding: 50px 0px;
+ }
+.wrapper-bottom {
     margin-top: 50px;
 }
-.wrapper-bottom {
-    margin-top: 10px;
-    margin-left: 50px;
+.wrapper-bottom .about-inner {
+    border: 1px solid darkgray;
+    display: flex;
+    padding: 40px;
 }
-.wrapper {
-    margin: 0 auto;
-    width: 550px;
-    padding-top: 0px;
-    padding-right: 0px;
-    background: white;
-    width: 600px;
-    height: 700px;
+.about-description {
+    margin-left: 20px;
 }
-.about-items {
-    color: #2090d0;
-    margin: 5px;
-    font-size: 14px;
+.img_logo {
+    width: 190px;
+    height: 150px;
 }
-.tittle {
+.about-tittle {
     padding-bottom: 10px;
     padding-top: 5px;
 }
-.name {
+.about-name {
     margin-bottom: 6px;
     font-size: 19px;
     color: #207fd0;
     font-weight: bold;
 }
-.position{
+.about-position{
     margin: 0px;
     font-style:oblique;
     font-size: 13px;
     color: #2090d0;
 }
-.about-inner_left {
-    margin-right: 0px;
-    width: 145px;
-    height: 190px;
-    margin-top: 56px;
-    margin-left: 25px;
-}
 .img_qr {
     border-right: 1px solid black;
-    margin: 0px;
     width: 100px;
     height: 100px;
-    padding: 45px 45px 45px 0px;
-}
-.about-content {
-    padding-top: 42px;
+    padding: 60px 65px 50px 0px;
 }
 h3 {
     color: white;
@@ -90,7 +61,7 @@ h3 {
     font-weight: 500;
     font-size: inherit;
 }
-.list {
+.about-item {
     color: #2090d0;
     width: 55px;
     display: inline-block;
@@ -103,10 +74,10 @@ li{
     margin-bottom: 12px;
     font-size: 13px;
 }
-.info{
+.about-text{
     font-weight: bold;
 }
-.info1{
+.about-text_1{
     font-weight: bold;
     margin-left: 60px;
 }
