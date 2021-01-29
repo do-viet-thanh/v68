@@ -1,43 +1,43 @@
-.about-inner{
-    height: 285px;
+.about-inner {
+    height: 280px;
     border: 1px solid darkgray;
     margin-left: 30px;
     display: flex;
-    width: 460px;
+    width: 458px;
     margin-top: 8px;
 }
-.about-description{
-    margin-left: 12px;
-
+.about-description {
+    margin-left: 20px;
 }
-body{
+body {
     text-shadow: 0 0 0 rgb(255 255 255);
     margin: 15px;
     font-family: sans-serif;
     background: #808080a6;
 }
-.img1{
+.img_logo {
     width: 190px;
     height: 150px;
+    margin-top: 25px;
 }
-.wapper_top{
+.wrapper_top {
     width: 490px;
     height: 340px;
     padding-top: 1px;
     margin-left: 50px;
     text-align: center;
 }
-.cover_card{
+.cover_card {
     background: #2090d0 ;
     margin-left: 30px;
     height: 270px;
     margin-top: 50px;
 }
-.wapper-bottom{
+.wrapper-bottom {
     margin-top: 10px;
     margin-left: 50px;
 }
-.wapper{
+.wrapper {
     margin: 0 auto;
     width: 550px;
     padding-top: 0px;
@@ -45,64 +45,69 @@ body{
     background: white;
     width: 600px;
     height: 700px;
-
 }
-.image{
-    border-right: 1px solid black;
-    height: 200px;
-    width: 155px;
-    margin-right: 0px;
-    margin: 15px;
-}
-.about-list-infomation{
-    display: flex;
-
-}
-.about-items{
+.about-items {
     color: #2090d0;
     margin: 5px;
     font-size: 14px;
 }
-
-.info{
-    margin: 5px;
-    font-size: 14px;
-    font-weight: bolder;
+.tittle {
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
-.tittle{
-    padding-bottom: 5px;
-}
-.name{
+.name {
     margin-bottom: 6px;
     font-size: 19px;
-    color: #2090d0;
+    color: #207fd0;
+    font-weight: bold;
 }
 .position{
     margin: 0px;
     font-style:oblique;
-    font-size: 14px;
+    font-size: 13px;
     color: #2090d0;
 }
-.image{
+.about-inner_left {
     margin-right: 0px;
-    width: 135px;
+    width: 145px;
     height: 190px;
     margin-top: 56px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
-img{
+.img_qr {
+    border-right: 1px solid black;
+    margin: 0px;
     width: 100px;
     height: 100px;
-    padding-top: 38px;
+    padding: 45px 45px 45px 0px;
 }
-
-.about-content{
+.about-content {
     padding-top: 42px;
 }
-h3{
+h3 {
     color: white;
     margin-top: 10px;
     font-weight: 500;
     font-size: inherit;
+}
+.list {
+    color: #2090d0;
+    width: 55px;
+    display: inline-block;
+}
+ul{
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+.info{
+    font-weight: bold;
+}
+.info1{
+    font-weight: bold;
+    margin-left: 60px;
 }
 
