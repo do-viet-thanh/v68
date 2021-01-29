@@ -1,9 +1,10 @@
 .about-inner{
     height: 285px;
-    width: 468px;
-    border: 1px solid #b5b5b5a3;
-    margin-left: 74px;
+    border: 1px solid darkgray;
+    margin-left: 30px;
     display: flex;
+    width: 460px;
+    margin-top: 8px;
 }
 .about-description{
     margin-left: 12px;
@@ -13,26 +14,41 @@ body{
     text-shadow: 0 0 0 rgb(255 255 255);
     margin: 15px;
     font-family: sans-serif;
-    background: #b5b5b5a3;
+    background: #808080a6;
 }
 .img1{
-    padding-top: 0px;
-    height: 285px;
-    margin-left: 75px;
+    width: 190px;
+    height: 150px;
+}
+.wapper_top{
+    width: 490px;
+    height: 340px;
+    padding-top: 1px;
+    margin-left: 50px;
+    text-align: center;
+}
+.cover_card{
+    background: #2090d0 ;
+    margin-left: 30px;
+    height: 270px;
     margin-top: 50px;
-    width: 471px;
 }
 .wapper-bottom{
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 .wapper{
+    margin: 0 auto;
+    width: 550px;
+    padding-top: 0px;
+    padding-right: 0px;
     background: white;
     width: 600px;
     height: 700px;
-    margin-left: 600px;
+
 }
 .image{
-    border-right: 1px solid #b5b5b5a3;
+    border-right: 1px solid black;
     height: 200px;
     width: 155px;
     margin-right: 0px;
@@ -51,13 +67,14 @@ body{
 .info{
     margin: 5px;
     font-size: 14px;
+    font-weight: bolder;
 }
 .tittle{
     padding-bottom: 5px;
 }
 .name{
     margin-bottom: 6px;
-    font-size: 20px;
+    font-size: 19px;
     color: #2090d0;
 }
 .position{
@@ -73,7 +90,6 @@ body{
     margin-top: 56px;
     margin-left: 20px;
 }
-
 img{
     width: 100px;
     height: 100px;
@@ -83,3 +99,10 @@ img{
 .about-content{
     padding-top: 42px;
 }
+h3{
+    color: white;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: inherit;
+}
+
