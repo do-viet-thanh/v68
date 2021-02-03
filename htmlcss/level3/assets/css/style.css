@@ -571,12 +571,16 @@ h4{
 .wrapper-bottom{
     text-align: center;
     display: flex;
-    padding-left: 400px;
-    font-size: 15px;
+    padding-left: 300px;
+    font-size: 17px;
+}
+.wrapper-bottom-p{
+    margin-bottom: 0px;
 }
 .wrapper-bottom-p-blue{
     color: #2962FF;
     margin-left: 5px;
+    margin-bottom: 0px;
 }
 .wrapper-bottom-p-blue:hover{
     cursor: pointer;
