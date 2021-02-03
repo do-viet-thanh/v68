@@ -6,8 +6,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Form Basic</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
     <!-- Include Quill stylesheet -->
     <link href="./assets/vendors/quill/quill.snow.css" rel="stylesheet">
     <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
@@ -31,65 +37,65 @@
         <div class="wrapper-contend">
             <div class="wrapper-contend-top">
                 <div class="wrapper-contend-top-left">
-                    <div class="form    form-left-third">
+                    <div class="form form-left-third">
                         <form action="">
                             <div class="form-left-first-top">
                                 <div class="form-left-first-h2">
                                     <h4>Personal Info</h4>
                                 </div>
                                 <div class="form-left-first-item">
-                                    <lable class="label-form-left-first">First Name</lable>
+                                    <lable class="label label-form-left-first">First Name</lable>
                                     <input type="text" class="input-text" name="input-form-left-first" placeholder="First Name Here"/>
                                 </div>
                                 <div class="form-left-first-item">
-                                    <label class="label-form-left-first">Last Name</label>
+                                    <label class="label label-form-left-first">Last Name</label>
                                     <input type="text" class="input-text" name="input-form-left-first" placeholder="Last Name Here"/>
                                 </div>
                                 <div class="form-left-first-item">
-                                    <label class="label-form-left-first">Password</label>
+                                    <label class="label label-form-left-first">Password</label>
                                     <input type="password" class="input-text" name="input-form-left-first" placeholder="Password Here"/>
                                 </div>
                                 <div class="form-left-first-item">
-                                    <label class="label-form-left-first">Company</label>
+                                    <label class="label label-form-left-first">Company</label>
                                     <input type="text" class="input-text" name="input-form-left-first" placeholder="Company Name Here"/>
                                 </div>
                                 <div class="form-left-first-item">
-                                    <label class="label-form-left-first">Contact No</label>
+                                    <label class="label label-form-left-first">Contact No</label>
                                     <input type="text" class="input-text" name="input-form-left-first" placeholder="Contact No Here"/>
                                 </div>
                                 <div class="form-left-first-item">
-                                    <label class="label-form-left-first">Message</label>
+                                    <label class="label label-form-left-first">Message</label>
                                     <textarea type="text" class="input-text" name="textarea-form-left-first"></textarea>
                                 </div>
                             </div>
                             <div class="form-left-first-bottom">
-                                <button class="submit">Submit</button>
+                                <button class="btn submit">Submit</button>
                             </div>
                         </form>
                     </div>
-                    <div class="form    form-left-second">
+                    <div class="form form-left-second">
                         <form action="">
                             <div class="form-left-second-top">
                                 <h4>Form Elements</h4>
                             <div class="form-left-second-contend">
                                 <div class="form-left-second-item">
-                                    <label class="label-form-left-second">Single Select</label>
+                                    <label class="label label-form-left-second">Single Select</label>
                                     <div class="form-left-second-item-right">
                                         <input type="text" class="input-text" name="input-form-left-second" placeholder="Select"/>
                                         <b role="presentation"></b>
                                     </div>
                                 </div>
                                 <div class="form-left-second-item">
-                                    <label class="label-form-left-second">Multiple Select</label>
+                                    <label class="label label-form-left-second">Multiple Select</label>
                                     <div class="form-left-second-item-right">
                                         <input type="text" class="input-text" name="input-form-left-second">
-                                        <button class="button-new-mexico">x New Mexico</button>
-                                        <button class="button-south-dakota">x South Dakota</button>
+                                        <button class="btn-multiple button-new-mexico">x New Mexico</button>
+                                        <button class="btn-multiple button-south-dakota">x South Dakota</button>
                                     </div>
                                 </div>
                                 <div class="form-left-second-item">
-                                    <label class="radio-label-form-left-second">Radio Buttons</label>
-                                    <div class="checkbox-form-left-second-item-left">
+                                    <label class="label radio-label-form-left-second">Radio Buttons</label>
+                                    <div class="label checkbox-form-left-second-item-left">
                                         <input id="345" type="radio" value="1" name="question1">
                                         <label for="345">First One</label>
                                         <br>
@@ -114,18 +120,18 @@
                                     </div>
                                 </div>
                                 <div class="form-left-second-item">
-                                    <label class="label-form-left-second">File Upload</label>
+                                    <label class="label label-form-left-second">File Upload</label>
                                     <div class="form-left-second-item-left">
                                         <div class="choose-form-left-second-item-left">
                                             <input type="file" />
                                         </div>
                                         <div class="browse-form-left-second-item-left">
-                                            <label name="input-browse-form-left-second">Browse</label>
+                                            <label name="label browse-form-left-second">Browse</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-left-second-item">
-                                    <label class="label-form-left-second">Disabled input</label>
+                                    <label class="label label-form-left-second">Disabled input</label>
                                     <div class="form-left-second-item-left">
                                         <input type="text" id="disabledTextInput" name="input-disable" placeholder="Disabled input" disabled="">
                                     </div>
@@ -133,49 +139,49 @@
                             </div>
                             </div>
                             <div class="form-left-second-bottom">
-                                <button class="submit">Submit</button>
+                                <button class="btn submit">Submit</button>
                             </div>
                         </form>
                     </div>
 
 
 
-                    <div class="form    form-left-third">
+                    <div class="form form-left-third">
                         <form action="">
                             <div class="form-left-third-top">
                                 <h4>Forms Control</h4>
                             </div>
                             <div class="form-left-third-contend">
                                 <div class="form-left-third-item">
-                                    <label class="label-form-left-third">Hue</label>
+                                    <label class="label label-form-left-third">Hue</label>
                                     <div class="table-color">
-                                        <button class="button-table-color-first"></button>
+                                        <button class="btn-table-color btn-table-color-first"></button>
                                         <input class="input-text" name="input-form-left-third" value="#ff6161"/>
                                     </div>
                                 </div>
                                 <div class="form-left-third-item">
-                                    <label class="label-form-left-third">Bottom left (default)</label>
+                                    <label class="label label-form-left-third">Bottom left (default)</label>
                                     <div class="table-color">
-                                        <button class="button-table-color-second"></button>
+                                        <button class="btn-table-color btn-table-color-second"></button>
                                         <input class="input-text" name="input-form-left-third" value="#0088cc"/>
                                     </div>
                                 </div>
                                 <div class="form-left-third-item">
-                                    <label class="label-form-left-third">Top right</label>
+                                    <label class="label label-form-left-third">Top right</label>
                                     <div class="table-color">
-                                        <input class="input-text" name="input-form-left-third-a" value="#0088cc"/>
-                                        <button class="button-table-color-third"></button>
+                                        <input class="input-text" name="input-form-left-third" value="#0088cc"/>
+                                        <button class="btn-table-color btn-table-color-third"></button>
                                     </div>
                                 </div>
                                 <div class="form-left-third-item">
-                                    <label class="label-form-left-third">Datepicker</label>
+                                    <label class="label label-form-left-third">Datepicker</label>
                                     <div class="form-left-third-item-i">
                                         <input class="input-text" name="input-form-left-third-a" placeholder="mm/dd/yyyy">
                                         <img class="awesome" src="./assets/images/awesome.png">
                                     </div>
                                 </div>
                                 <div class="form-left-third-item">
-                                    <label class="label-form-left-third">Autoclose Datepicker</label>
+                                    <label class="label label-form-left-third">Autoclose Datepicker</label>
                                     <div class="form-left-third-item-i">
                                         <input class="input-text" name="input-form-left-third-a" placeholder="mm/dd/yyyy">
                                         <img class="awesome" src="./assets/images/awesome.png">
@@ -183,48 +189,48 @@
                                 </div>
                             </div>
                             <div class="form-left-third-bottom">
-                                <button class="button-save-form-left-third">Save</button>
-                                <button class="button-reset-form-left-third">Reset</button>
-                                <button class="button-edit-form-left-third">Edit</button>
-                                <button class="button-cancel-form-left-third">Cancel</button>
+                                <button class="btn btn-save">Save</button>
+                                <button class="btn btn-reset">Reset</button>
+                                <button class="btn btn-edit">Edit</button>
+                                <button class="btn btn-cancel">Cancel</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="wrapper-contend-top-right">
-                    <div class="form    form-right-first">
+                    <div class="form form-right-first">
                         <form action="">
                             <h4>Form Elements</h4>
                             <div class="form-right-first-item">
-                                <lable class="label-form-right-first">
+                                <lable class="label label-form-right-first">
                                     Date Mask
                                     <small>dd/mm/yyyy</small>
                                 </lable>
                                 <input type="text" class="input-text" name="input-form-right-first" placeholder="Enter Date"/>
                             </div>
                             <div class="form-right-first-item">
-                                <label class="label-form-right-first">
+                                <label class="label label-form-right-first">
                                     Phone
                                     <small>(999) 999-9999</small>
                                 </label>
                                 <input type="text" class="input-text" name="input-form-right-first" placeholder="Enter Phone Number"/>
                             </div>
                             <div class="form-right-first-item">
-                                <label class="label-form-right-first">
+                                <label class="label label-form-right-first">
                                     International Number
                                     <small>+19 999 999 999</small>
                                 </label>
                                 <input type="text" class="input-text" name="input-form-right-first" placeholder="International Phone Number"/>
                             </div>
                             <div class="form-right-first-item">
-                                <label class="label-form-right-first">
+                                <label class="label label-form-right-first">
                                     Phone/xEx
                                     <small>(999) 999-9999 / x999999</small>
                                 </label>
                                 <input type="text" class="input-text" name="input-form-right-first" placeholder="Enter Phone Number"/>
                             </div>
                             <div class="form-right-first-item">
-                                <label class="label-form-right-first">
+                                <label class="label label-form-right-first">
                                     Purchase Order
                                     <small>aaaa 9999-****</small>
                                 </label>
@@ -236,15 +242,15 @@
                         <form action="">
                             <h4>Form Element</h4>
                             <div class="form-right-second-item">
-                                <label class="label-form-right-second">Tooltip Input</label>
+                                <label class="label label-form-right-second">Tooltip Input</label>
                                 <input type="text" class="input-text" name="input-form-right-second" placeholder="Hover For tooltip"/>
                             </div>
                             <div class="form-right-second-item">
-                                <label class="label-form-right-second">Type ahead Input</br></label>
+                                <label class="label label-form-right-second">Type ahead Input</br></label>
                                 <input type="text" class="input-text" name="input-form-right-second" placeholder="Type here for auto complete.."/>
                             </div>
                             <div class="form-right-second-item">
-                                <label class="label-form-right-second">Prepended Input</label>
+                                <label class="label label-form-right-second">Prepended Input</label>
                                 <div class="input-prepend-form-right-second">
                                     <div class="input-prepend-left">
                                         <span class="input-group-text">#</span>
@@ -253,7 +259,7 @@
                                 </div>
                             </div>
                             <div class="form-right-second-item">
-                                <label class="label-form-right-second">Appended Input</label>
+                                <label class="label label-form-right-second">Appended Input</label>
                                 <div class="input-append-form-right-second">
                                     <input type="text" class="input-text    input-append-left" placeholder="5.000">
                                     <div class="input-append-right">
@@ -280,7 +286,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="form    form-right-third">
+                    <div class="form form-right-third">
                         <form action="">
                             <div class="form-right-third-item">
                                 <input  class="input-text" name="col-md-12" placeholder="col-md-12"/>
@@ -318,7 +324,7 @@
                                 <input class="input-text" name="col-md-1.2" placeholder="col-md-3"/>
                                 <input class="input-text" name="col-md-1.3" placeholder="col-md-4"/>
                                 <input class="input-text" name="col-md-1.4" placeholder="col-m"/>
-                                <input class="input-text" name="col-md-1.5" placeholder=""/>
+                                <input class="input-text" name="col-md-1.5" placeholder="c"/>
                             </div>
                         </form>
                     </div>
@@ -340,7 +346,7 @@
         </div>
         <div class="wrapper-bottom">
             <p class="wrapper-bottom-p" >All Rights Reserved by Matrix-admin. Designed and Developed by</p>
-            <p class="wrapper-bottom-p-blue">WrapPixel</p>
+            <a href="#" class="wrapper-bottom-p-blue">WrapPixel</a>
         </div>
     </div>
 
