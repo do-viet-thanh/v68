@@ -14,15 +14,17 @@ h4{
     font-weight: 600;
     line-height: 1.2;
 }
-.tittle{
+.top-left-tittle{
     margin: 5px 0px;
     font-size: 1.135rem;
     font-weight: 600;
     line-height: 1.2;
 }
+.wrapper{
+    padding: 20px;
+}
 .wrapper-top{
     display: flex;
-    padding: 20px 20px 0 20px;
     margin: 5px 0px;
 }
 .wrapper-top-right{
@@ -46,54 +48,34 @@ h4{
     color: #ced4da;
     padding: 0px 10px;
 }
-.wrapper-contend{
-    padding: 20px;
-}
-.form-left-first{
+.form{
     background: white;
-    margin-bottom: 50px;
-}
-.form-left-second{
-    background: white;
-    margin-bottom: 50px;
-}
-.form-left-third{
-    background: white;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .form-right-first{
-    background: white;
     padding: 20px;
-    margin-bottom: 50px;
 }
 .form-right-second{
-    background: white;
     padding: 20px;
-    margin-bottom: 50px;
 }
 .form-right-third{
-    background: white;
     padding: 20px;
-    margin-bottom: 50px;
 }
-
 .form-left-first-top{
     padding: 20px;
     border-bottom: 1px solid #e9ecef;
 }
 .form-left-first-bottom{
-    padding: 30px;
+    padding: 20px;
 }
 .form-left-first-item input[name='input-form-left-first'] {
-    border: 1px solid #e9ecef;
     width: 370px;
-    padding: 10px 10px;
-    font-size: 15px;
     color: #4F5467;
 }
-.form-left-first-item textarea[name='big-input-form-left-first'] {
+.form-left-first-item textarea[name='textarea-form-left-first'] {
     border: 1px solid #e9ecef;
     width: 340px;
+    border-radius: 2px;
     padding: 15px 25px;
 }
 .wrapper-contend-top{
@@ -122,11 +104,11 @@ h4{
     color: white;
     border: 0px;
     padding: 11px 16px;
-    font-size: 15px;
-    border-radius: 2px;
+    font-size: 17px;
+    border-radius: 3px;
 }
 .submit:hover{
-    background-color: #4632bc;
+    background-color: #4c32e9;
     cursor: pointer;
 }
 
@@ -139,7 +121,7 @@ h4{
     display: flex;
 }
 .form-left-second-bottom{
-    padding: 30px;
+    padding: 20px;
 }
 .label-form-left-second{
     display: inline-block;
@@ -162,26 +144,19 @@ h4{
 }
 .form-left-second-item input[name='input-form-left-second'] {
     width: 380px;
-    padding: 15px 10px;
-    border: 1px solid #e9ecef;
-    font-size: 16px;
+    padding: 13px 10px;
     border-radius: 5px;
-}
-.input-form-left-second:hover{
-    border: 1px solid black;
-}
-.form-left-second-item input[name='checkbox-input-form-left-second']{
-    border: 1px solid #e9ecef;
 }
 .checkbox-form-left-second-item-left{
     font-weight: 600;
 }
-.form-left-second-item input[name='input-background-form-left-second'] {
+.form-left-second-item input[name='input-disable'] {
     width: 380px;
-    padding: 13px 10px;
-    border: 1px solid #e9ecef;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 3px;
     background-color: #e9ecef;
+    border: 0px;
 }
 .form-left-second-item-left{
     display: flex;
@@ -205,22 +180,22 @@ h4{
     background-color: #2255a4;
     color: white;
     border: 0px;
-    border-radius: 3px;
-    padding: 10px 12px;
-    font-size: 15px;
-    bottom: 44px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 17px;
+    bottom: 42px;
     left: 7px;
 }
 .button-south-dakota{
     position: absolute;
     background-color: #2255a4;
     color: white;
-    padding: 10px 12px;
+    padding: 8px;
     border: 0px;
-    border-radius: 3px;
-    font-size: 15px;
-    bottom: 44px;
-    left: 130px;
+    border-radius: 5px;
+    font-size: 17px;
+    bottom: 42px;
+    left: 135px;
 }
 
 .form-left-third-item{
@@ -229,17 +204,10 @@ h4{
 }
 .form-left-third-item input[name='input-form-left-third']{
     padding: 10px 50px;
-    border: 1px solid #e9ecef;
-    font-size: 15px;
     width: 440px;
-    color: #3e5569;
 }
 .form-left-third-item input[name='input-form-left-third-a']{
-    padding: 10px 10px;
-    border: 1px solid #e9ecef;
-    font-size: 15px;
     width: 520px;
-    color: #3e5569;
 }
 .label-form-left-third{
     padding-bottom: 10px;
@@ -247,13 +215,13 @@ h4{
 }
 .form-left-third-contend{
     border-bottom: 1px solid #e9ecef;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px;
 }
 .form-left-third-top{
     padding: 20px 20px 0px 20px;
 }
 .form-left-third-bottom{
-    padding: 30px;
+    padding: 20px;
 }
 .form-left-third-item-i{
     display: flex;
@@ -268,77 +236,77 @@ h4{
 .button-save-form-left-third{
     padding: 11px 16px;
     border: 0px;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
     background: #28b779;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 .button-save-form-left-third:hover{
-    background-color: #26a47a;
+    background-color: #1f8d5d;
     cursor: pointer;
 }
 .button-reset-form-left-third{
     padding: 11px 16px;
     border: 0px;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
-    background: #4226e8;
-    border-radius: 2px;
+    background: #7460ee;
+    border-radius: 3px;
 }
 .button-reset-form-left-third:hover{
-    background-color: #2f1ca2;
+    background-color: #4c32e9;
     cursor: pointer;
 }
 .button-edit-form-left-third{
     padding: 11px 16px;
     border: 0px;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
-    background: #193f7a;
-    border-radius: 2px;
+    background: #2255a4;
+    border-radius: 3px;
 }
 .button-edit-form-left-third:hover{
-    background-color: #17386b;
+    background-color: #193f7a;
     cursor: pointer;
 }
 .button-cancel-form-left-third{
     padding: 11px 16px;
     border: 0px;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
-    background: #b54120;
-    border-radius: 2px;
+    background: #da542e;
+    border-radius: 3px;
 }
 .button-cancel-form-left-third:hover{
     cursor: pointer;
-    background-color: #9d381b;
+    background-color: #b54120;
 }
 .table-color{
     position: relative;
 }
 .button-table-color-first{
-    padding: 14px;
+    padding: 15px;
     border: 2px solid #e9ecef;
     background-color: #ff6161;
-    left: 4px;
-    bottom: 4px;
+    left: 3px;
+    bottom: 3px;
     position: absolute;
     border-radius: 5px;
 }
 .button-table-color-second{
-    padding: 14px;
+    padding: 15px;
     border: 2px solid #e9ecef;
-    left: 4px;
-    bottom: 4px;
+    left: 3px;
+    bottom: 3px;
     position: absolute;
     border-radius: 5px;
     background-color: #0088cc;
 }
 .button-table-color-third{
-    padding: 14px;
+    padding: 15px;
     border: 2px solid #e9ecef;
-    right: 4px;
-    bottom: 4px;
+    right: 3px;
+    bottom: 3px;
     position: absolute;
     border-radius: 5px;
     background-color: #0088cc;
@@ -360,10 +328,7 @@ h4{
     display: grid;
 }
 .form-right-first-item input[name='input-form-right-first']{
-    padding: 10px 10px;
-    margin-bottom: 25px;
-    border: 1px solid #e9ecef;
-    font-size: 15px;
+    margin-bottom: 23px;
 }
 
 .label-form-right-second{
@@ -375,9 +340,6 @@ h4{
 }
 .form-right-second-item input[name='input-form-right-second']{
     width: 332px;
-    padding: 10px 10px;
-    border: 1px solid #e9ecef;
-    font-size: 15px;
 }
 .form-right-second-item{
     margin-bottom: 20px;
@@ -390,36 +352,31 @@ h4{
 }
 .input-prepend-form-right-second{
     display: flex;
-    font-size: 15px;
 }
 .input-prepend-left{
     border: 1px solid #e9ecef;
     background-color: #f8f9fa;
     padding: 10px 18px;
-    font-size: 15px;
+    border-right: 0px;
+    font-size: 17px;
 }
 .input-prepend-right{
-    border: 1px solid #e9ecef;
-    padding: 10px 10px;
-    border-left-width: 0px;
+    border-left: 0px;
     width: 286px;
-    font-size: 15px;
 }
 .input-append-form-right-second{
     display: flex;
-    font-size: 15px;
 }
 .input-append-left {
-    border: 1px solid #e9ecef;
-    padding: 10px 10px;
-    border-right-width: 0px;
+    border-right: 0px;
     width: 286px;
-    font-size: 15px;
 }
-.input-append-right{
+.input-append-right {
     border: 1px solid #e9ecef;
     background-color: #f8f9fa;
     padding: 10px 18px;
+    border-left: 0px;
+    font-size: 17px;
 }
 .label-form-right-second-green{
     color: #28b779;
@@ -434,7 +391,8 @@ h4{
     width: 327px;
     padding: 12px;
     border: 1px solid #28b779;
-    font-size: 15px;
+    font-size: 17px;
+    border-radius: 2px;
 }
 .woohoo{
     font-size: 80%;
@@ -479,20 +437,21 @@ h4{
     width: 327px;
     padding: 12px;
     border: 1px solid #da542e;
-    font-size: 15px;
+    font-size: 17px;
+    border-radius: 2px;
 }
 
 .form-right-third-item input[name="col-md-12"]{
     padding: 10px;
     width: 520px;
-    font-size: 15px;
+    font-size: 17px;
     border: 1px solid #e9ecef;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-11"]{
     padding: 10px;
     width: 480px;
-    font-size: 15px;
+    font-size: 17px;
     border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -500,128 +459,87 @@ h4{
 .form-right-third-item input[name="col-md-11-right"]{
     padding: 10px;
     width: 15px;
-    font-size: 15px;
+    font-size: 17px;
     border: 1px solid #e9ecef;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-10"]{
-    padding: 10px;
     width: 480px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-10-right"]{
-    padding: 10px;
     width: 45px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-9"]{
-    padding: 10px;
     width: 480px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-9-right"]{
-    padding: 10px;
     width: 90px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-8"]{
-    padding: 10px;
     width: 480px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-8-right"]{
-    padding: 10px;
     width: 140px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-7"]{
-    padding: 10px;
     width: 480px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-7-right"]{
-    padding: 10px;
     width: 300px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-6"]{
-    padding: 10px;
-    font-size: 15px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
+    width: 250px;
 }
 .form-right-third-item input[name="col-md-6-right"]{
-    padding: 10px;
-    width: 460px;
-    border: 1px solid #e9ecef;
+    width: 230px;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-5"]{
-    padding: 10px;
     width: 480px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-5-right"]{
-    padding: 10px;
     width: 600px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
 }
 .form-right-third-item input[name="col-md-1.1"]{
-    padding: 10px;
     width: 40px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
+
 }
 .form-right-third-item input[name="col-md-1.2"]{
-    padding: 10px;
     width: 100px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-1.3"]{
-    padding: 10px;
     width: 130px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-1.4"]{
-    padding: 10px;
     width: 40px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
 .form-right-third-item input[name="col-md-1.5"]{
-    padding: 10px;
     width: 20px;
-    border: 1px solid #e9ecef;
     margin-bottom: 20px;
     margin-right: 20px;
 }
@@ -632,11 +550,11 @@ h4{
 }
 
 .wrapper-contend-bottom{
-     background: white;
-     padding: 30px;
-     margin-bottom: 50px;
-     height: 450px;
- }
+    background: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    height: 450px;
+}
 .tittle-quill{
     font-size: 19px;
 }
@@ -651,7 +569,6 @@ h4{
 }
 
 .wrapper-bottom{
-    padding: 20px;
     text-align: center;
     display: flex;
     padding-left: 400px;
@@ -669,7 +586,27 @@ h4{
     color: #da542e;
     font-size: 80%;
 }
-
 small{
     color: #a1aab2;
 }
+.input-text{
+    border: 1px solid #e9ecef;
+    font-size: 17px;
+    border-radius: 2px;
+    padding: 10px;
+    color: #3e5569;
+}
+.input-text:focus{
+    outline: none;
+    border: 1px solid #c0c1c1 !important;
+}
+.input-green:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 4px #bfead7;
+}
+.input-red:focus{
+    outline: none;
+    box-shadow: 0px 0px 0px 4px #f4cec3 ;
+}
+
+
