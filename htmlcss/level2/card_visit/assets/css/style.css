@@ -81,4 +81,7 @@ li{
     font-weight: bold;
     margin-left: 60px;
 }
+input:focus{
+    border: 1px solid #a1aab2;
 
+}
