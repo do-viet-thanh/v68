@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
-      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Form Basic</title>
 
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
 
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
 
+    <!-- Library -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
-    <!-- Include Quill stylesheet -->
     <link href="./assets/vendors/quill/quill.snow.css" rel="stylesheet">
-    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-
     <div class="wrapper">
          <div class="wrapper-top">
              <div class="wrapper-top-left">
@@ -29,14 +28,14 @@
              <div class="wrapper-top-right">
                  <span class="home">Home</span>
                  <div class="library">
-                     <label class="sign">></label>
+                     <span class="sign">></span>
                      <span class="library_span">Library</span>
                  </div>
              </div>
         </div>
-        <div class="wrapper-contend">
-            <div class="wrapper-contend-top">
-                <div class="wrapper-contend-top-left">
+        <div class="wrapper-content">
+            <div class="wrapper-content-top">
+                <div class="wrapper-content-top-left">
                     <div class="form form-left-third">
                         <form action="">
                             <div class="form-left-first-top">
@@ -77,7 +76,7 @@
                         <form action="">
                             <div class="form-left-second-top">
                                 <h4>Form Elements</h4>
-                            <div class="form-left-second-contend">
+                            <div class="form-left-second-content">
                                 <div class="form-left-second-item">
                                     <label class="label label-form-left-second">Single Select</label>
                                     <div class="form-left-second-item-right">
@@ -143,20 +142,17 @@
                             </div>
                         </form>
                     </div>
-
-
-
                     <div class="form form-left-third">
                         <form action="">
                             <div class="form-left-third-top">
                                 <h4>Forms Control</h4>
                             </div>
-                            <div class="form-left-third-contend">
+                            <div class="form-left-third-content">
                                 <div class="form-left-third-item">
                                     <label class="label label-form-left-third">Hue</label>
                                     <div class="table-color">
                                         <button class="btn-table-color btn-table-color-first"></button>
-                                        <input class="input-text" name="input-form-left-third" value="#ff6161"/>
+                                        <input class="input-text " name="input-form-left-third" value="#ff6161"/>
                                     </div>
                                 </div>
                                 <div class="form-left-third-item">
@@ -169,7 +165,7 @@
                                 <div class="form-left-third-item">
                                     <label class="label label-form-left-third">Top right</label>
                                     <div class="table-color">
-                                        <input class="input-text" name="input-form-left-third" value="#0088cc"/>
+                                        <input class="input-text mini-color-third " name="input-form-left-third" value="#0088cc"/>
                                         <button class="btn-table-color btn-table-color-third"></button>
                                     </div>
                                 </div>
@@ -197,7 +193,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="wrapper-contend-top-right">
+                <div class="wrapper-content-top-right">
                     <div class="form form-right-first">
                         <form action="">
                             <h4>Form Elements</h4>
@@ -238,7 +234,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="form    form-right-second">
+                    <div class="form form-right-second">
                         <form action="">
                             <h4>Form Element</h4>
                             <div class="form-right-second-item">
@@ -330,8 +326,8 @@
                     </div>
                 </div>
             </div>
-            <div class="wrapper-contend-bottom">
-                <h4 class="tittle-quill">Quill Editor</h4>
+            <div class="wrapper-content-bottom">
+                <h4>Quill Editor</h4>
 <!--                <div id="toolbar">-->
 <!--                    <button class="ql-bold">Bold</button>-->
 <!--                    <button class="ql-italic">Italic</button>-->
@@ -345,18 +341,12 @@
             </div>
         </div>
         <div class="wrapper-bottom">
-            <p class="wrapper-bottom-p" >All Rights Reserved by Matrix-admin. Designed and Developed by</p>
+            All Rights Reserved by Matrix-admin. Designed and Developed by
             <a href="#" class="wrapper-bottom-p-blue">WrapPixel</a>
         </div>
     </div>
 
-
-
-
-
-
-
-    <!-- Include the Quill library -->
+    <!-- My JS -->
     <script src="./assets/vendors/quill/quill.js"></script>
 
     <!-- Initialize Quill editor -->
