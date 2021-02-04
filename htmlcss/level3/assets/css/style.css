@@ -104,6 +104,11 @@ h4.top-left-title {
     background-color: #4c32e9;
     cursor: pointer;
 }
+.submit:focus{
+    box-shadow: 0px 0px 0px 3px #cac3f9;
+    background: #4c32e9;
+    outline: none;
+}
 
 .form-left-second-top{
     padding: 20px;
@@ -239,9 +244,13 @@ h4.top-left-title {
     color: white;
     line-height: 1.5;
     border: 1px solid transparent;
+    text-decoration: none;
+    -webkit-user-select: none;
+    text-transform: none;
+    overflow: visible;
 }
-.btn:hover{
-    cursor: pointer;
+.btn:focus{
+    outline: none;
 }
 .btn-save{
     background: #28b779;
@@ -249,10 +258,18 @@ h4.top-left-title {
 .btn-save:hover{
     background-color: #1f8d5d;
 }
+.btn-save:focus{
+    box-shadow: 0px 0px 0px 3px #aee4cc;
+    background-color:#1f8d5d ;
+}
 .btn-reset{
     background: #7460ee;
 }
 .btn-reset:hover{
+    background-color: #4c32e9;
+}
+.btn-reset:focus{
+    box-shadow: 0px 0px 0px 3px #b7adf6;
     background-color: #4c32e9;
 }
 .btn-edit{
@@ -261,10 +278,18 @@ h4.top-left-title {
 .btn-edit:hover{
     background-color: #193f7a;
 }
+.btn-edit:focus{
+    box-shadow: 0px 0px 0px 3px #abbfdd;
+    background-color:#193f7a ;
+}
 .btn-cancel{
     background: #da542e;
 }
 .btn-cancel:hover{
+    background-color: #b54120;
+}
+.btn-cancel:focus{
+    box-shadow: 0px 0px 0px 3px #f1beb0;
     background-color: #b54120;
 }
 .table-color{
@@ -293,14 +318,14 @@ h4.top-left-title {
     cursor: text;
 }
 .label-form-right-first{
-    padding-bottom: 10px;
+    padding-bottom: 11px;
     font-weight: 600;
 }
 .form-right-first-item{
     display: grid;
 }
 .form-right-first-item input[name='input-form-right-first']{
-    margin-bottom: 24px;
+    margin-bottom: 23px;
 }
 .label-form-right-second{
     display: inline-block;
