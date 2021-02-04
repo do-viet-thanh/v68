@@ -249,6 +249,9 @@ h4.top-left-title {
     text-transform: none;
     overflow: visible;
 }
+.btn:hover{
+    cursor: pointer;
+}
 .btn:focus{
     outline: none;
 }
@@ -434,110 +437,69 @@ h4.top-left-title {
     border-radius: 2px;
     line-height: 1.5;
 }
-
-.form-right-third-item input[name="col-md-12"]{
-    width: 520px;
-    margin-bottom: 16px;
-}
-.form-right-third-item input[name="col-md-11"]{
-    width: 480px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-}
-.form-right-third-item input[name="col-md-11-right"]{
-    width: 15px;
-    margin-bottom: 16px;
-}
-.form-right-third-item input[name="col-md-10"]{
-    width: 480px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-}
-.form-right-third-item input[name="col-md-10-right"]{
-    width: 45px;
-    margin-bottom: 16px;
-}
-.form-right-third-item input[name="col-md-9"]{
-    width: 480px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-}
-.form-right-third-item input[name="col-md-9-right"]{
-    width: 90px;
-    margin-bottom: 16px;
-}
-.form-right-third-item input[name="col-md-8"]{
-    width: 480px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-}
-.form-right-third-item input[name="col-md-8-right"]{
-    width: 140px;
-    margin-bottom: 16px;
-}
-.form-right-third-item input[name="col-md-7"]{
-    width: 480px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-}
-.form-right-third-item input[name="col-md-7-right"]{
-    width: 190px;
-    margin-bottom: 16px;
-}
-.form-right-third-item input[name="col-md-6"]{
-    margin-bottom: 16px;
-    margin-right: 20px;
-    width: 250px;
-}
-.form-right-third-item input[name="col-md-6-right"]{
-    width: 250px;
-    margin-bottom: 16px;
-}
-.form-right-third-item input[name="col-md-5"]{
-    width: 180px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-    height: 21px;
-}
-.form-right-third-item input[name="col-md-5-right"]{
-    width: 600px;
-    margin-bottom: 20px;
-}
-.form-right-third-item input[name="col-md-1.1"]{
-    width: 40px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-    height: 21px;
-
-}
-.form-right-third-item input[name="col-md-1.2"]{
-    width: 70px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-    height: 21px;
-}
-.form-right-third-item input[name="col-md-1.3"]{
-    width: 120px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-}
-.form-right-third-item input[name="col-md-1.4"]{
-    width: 40px;
-    margin-bottom: 16px;
-    margin-right: 14px;
-    height: 21px;
-}
-.form-right-third-item input[name="col-md-1.5"]{
-    width: 6px;
-    margin-bottom: 16px;
-    margin-right: 20px;
-    height: 21px;
-
-}
-
 .form-right-third-item{
+    margin-bottom: 16px;
     display: flex;
     font-size: 15px;
+}
+.form-right-third-item input:first-of-type{
+    width: 520px;
+    margin-right: 20px;
+}
+.form-right-third .form-right-third-item:first-of-type input:first-of-type{
+    margin-right: 0px;
+}
+.form-right-third .form-right-third-item:nth-of-type(2) input:nth-of-type(2){
+    width: 10px;
+}
+.form-right-third .form-right-third-item:nth-of-type(3) input:nth-of-type(2){
+    width: 50px;
+}
+.form-right-third .form-right-third-item:nth-of-type(4) input:nth-of-type(2){
+    width: 80px;
+}
+.form-right-third .form-right-third-item:nth-of-type(5) input:nth-of-type(2){
+     width: 120px;
+ }
+.form-right-third .form-right-third-item:nth-of-type(6) input:nth-of-type(2){
+    width: 160px;
+}
+.form-right-third .form-right-third-item:nth-of-type(7) input:nth-of-type(2){
+    width: 480px;
+}
+.form-right-third .form-right-third-item:nth-of-type(8) input:nth-of-type(2){
+    width: 700px;
+}
+.form-right-third .form-right-third-item:nth-of-type(9) input:first-of-type{
+    width: 35px;
+}
+.form-right-third .form-right-third-item:nth-of-type(9) input:nth-of-type(2){
+    width: 90px;
+    margin-right: 20px;
+}
+.form-right-third .form-right-third-item:nth-of-type(9) input:nth-of-type(3){
+    width: 115px;
+    margin-right: 20px;
+}
+.form-right-third .form-right-third-item:nth-of-type(9) input:nth-of-type(4){
+    width: 35px;
+    margin-right: 10px;
+}
+.form-right-third .form-right-third-item:nth-of-type(9) input:nth-of-type(5){
+    width: 5px;
+}
+.item-ninth input:first-of-type{
+
+}
+.item-ninth input:first-of-type{
+
+}
+.item-ninth input:first-of-type{
+
+}
+
+.form-right-third .form-right-third-item:first-of-type input:nth-of-type(2){
+
 }
 
 .wrapper-content-bottom{
