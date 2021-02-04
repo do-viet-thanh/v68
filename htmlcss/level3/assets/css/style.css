@@ -300,9 +300,8 @@ h4.top-left-title {
     display: grid;
 }
 .form-right-first-item input[name='input-form-right-first']{
-    margin-bottom: 23px;
+    margin-bottom: 24px;
 }
-
 .label-form-right-second{
     display: inline-block;
     width: 165px;
