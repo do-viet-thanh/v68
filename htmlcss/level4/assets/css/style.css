@@ -1,0 +1,313 @@
+body {
+    background-color: #FAFAFB !important;
+    font-family: "Roboto", sans-serif;
+}
+.trading{
+    display: flex;
+    color: white;
+    margin: 0px !important;
+}
+.trading__card{
+    background-color: #1D2646;
+    height: 625px;
+}
+.trading__card__heading {
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.trading__card__greeting{
+    color: #A0A2A7;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+.trading__card__content{
+    display: flex;
+}
+.trading__input{
+    border: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 47px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 0 30px;
+    background: #fff;
+}
+.trading__label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 9px;
+}
+.username{
+    margin-right: 110px;
+}
+.a__forgot__password{
+    margin-left: 9px;
+    font-size: 18px;
+}
+.btn__item{
+    align-items: center;
+    width: 152px;
+    height: 44px;
+    border-radius: 44px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+    margin-top: 22px;
+}
+.btn--sign_in{
+    background-color: #FFC700;
+    margin-right: 36px;
+}
+.btn--sign_up{
+    background-color: #1D2646;
+    border: 1px solid white;
+}
+.trading__images{
+    text-align: center;
+}
+img{
+    width: 320px;
+    margin-top: 150px;
+}
+@media screen and (min-width : 1200px){
+    .trading{
+        display: flex;
+        color: white;
+        margin: 0px !important;
+    }
+    .trading__card{
+        padding-left: 61px;
+    }
+    .col-md-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.2%;
+        flex: 0 0 41.2%;
+        max-width: 41.2%;
+    }
+    .col-md-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.8%;
+        flex: 0 0 58.8%;
+        max-width: 58.8%;
+    }
+    .trading__card__heading {
+        margin-top: 82px;
+        margin-bottom: 23px;
+    }
+    .trading__card__greeting{
+        margin-bottom: 59px;
+    }
+    .trading__input{
+        width: 282px;
+    }
+    .trading__label{
+        margin-bottom: 8px;
+    }
+    .username{
+        margin-right: 50px;
+    }
+    img{
+        margin-top: 145px;
+        margin-left: -20px;
+    }
+    .btn--sign_in{
+        margin-right: 32px;
+    }
+}
+@media screen and (max-width : 767px){
+    .trading__card{
+        background-color: #00bcd4 ;
+        position: relative;
+        height: 1075px;
+    }
+    .img__bike{
+        position: absolute;
+        width: 120px;
+        margin: 0px;
+        top: -880px;
+        right: 100px;
+    }
+    .btn--sign_up{
+        background-color: #00bcd4;
+    }
+    .trading__card__content {
+        display: grid;
+    }
+    .username{
+        margin-right: 0px;
+    }
+    .trading__input{
+        border-radius: 10px;
+        height: 28px;
+    }
+    .btn__item{
+        width: 120px;
+        height: 32px;
+        border-radius: 32px;
+        font-size: 14px;
+    }
+    .trading__card__heading{
+        font-size: 38px;
+    }
+    .trading__card__greeting{
+        font-size: 16px;
+        margin: 0px 0px 114px;
+        color: #99e4ee;
+    }
+    .trading__label{
+        font-size: 14px;
+        margin-left: 5px;
+        margin-bottom: 6px;
+    }
+}
+/* iphone6/7/8 */
+@media screen and (max-width : 576px) and (height: 667px){
+    .trading__card__heading {
+        margin-top: 138px;
+        margin-bottom: 13px;
+    }
+    .trading__card__greeting{
+        margin-bottom: 113px;
+    }
+    .trading__input{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 10px;
+        height: 28px;
+    }
+    .username{
+        padding-bottom: 15px;
+    }
+    .a__forgot__password{
+        margin-left: 0px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .btn--sign_in{
+        margin-right: 91px;
+        margin-top: 27px;
+    }
+    .trading__card {
+        background-color: #00bcd4;
+        position: relative;
+        height: 666px;
+    }
+    .img__bike{
+        position: absolute;
+        width: 120px;
+        margin: 0px;
+        top: -442px;
+        right: 25px;
+    }
+    .username{
+        margin-right: 0px;
+    }
+    .label--username{
+        margin-bottom: 7px;
+    }
+    .input--password{
+        margin-bottom: 5px;
+    }
+}
+/* iphone6/7/8 plus */
+@media screen and (max-width : 576px) and (height: 736px){
+    .trading__card__heading {
+        margin-top: 138px;
+        margin-bottom: 13px;
+    }
+    .trading__input{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 10px;
+        height: 28px;
+    }
+    .a__forgot__password{
+        margin-left: 0px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .btn--sign_in{
+        margin: 27px 130px 0px 0px;
+    }
+    .trading__card {
+        background-color: #00bcd4;
+        position: relative;
+        height: 735px;
+    }
+    .img__bike{
+        position: absolute;
+        width: 120px;
+        margin: 0px;
+        top: -511px;
+        right: 29px;
+    }
+    .username{
+        margin: 0px 0px 14px 0px;
+    }
+    .label--password{
+        margin-bottom: 7px;
+    }
+    .input--password{
+        margin-bottom: 5px;
+    }
+}
+/* iphone X */
+@media screen and (max-width : 576px) and (height: 812px){
+    .trading__card__heading {
+        margin-top: 138px;
+        margin-bottom: 13px;
+    }
+    .trading__card__greeting{
+        margin-bottom: 113px;
+    }
+    .trading__input{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 10px;
+        height: 28px;
+    }
+    .username{
+        padding-bottom: 15px;
+    }
+    .a__forgot__password{
+        margin-left: 0px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .btn--sign_in{
+        margin: 27px 90px 0px 0px;
+    }
+    .trading__card {
+        background-color: #00bcd4;
+        position: relative;
+        height: 811px;
+    }
+    .img__bike{
+        position: absolute;
+        width: 120px;
+        margin: 0px;
+        top: -587px;
+        right: 25px;
+    }
+    .input--password{
+        margin-bottom: 5px;
+    }
+    .username{
+        margin-right: 0px;
+    }
+    .label--password{
+        margin-bottom: 7px;
+    }
+
+}
+
+
+
+
+
