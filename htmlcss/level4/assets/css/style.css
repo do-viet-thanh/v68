@@ -2,12 +2,104 @@ body {
     background-color: #FAFAFB !important;
     font-family: "Roboto", sans-serif;
 }
+.trading{
+    display: flex;
+    color: white;
+    margin: 0px !important;
+}
 
 /* ========== CONTENT LEFT: CARD ========== */
+.trading__card{
+    background-color: #1D2646;
+    height: 100vh;
+}
+.trading__card__heading {
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.trading__card__greeting{
+    color: #A0A2ae;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+.trading__card__content{
+    display: flex;
+}
+.trading__input{
+    border: 0px;
+    display: flex;
+    width: 100%;
+    height: 47px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 0 30px;
+    background: #fff;
+    outline: unset ;
+}
+.trading__label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 9px;
+}
+.username{
+    margin-right: 109px;
+}
+.a__forgot__password{
+    margin-left: 9px;
+    font-size: 18px;
+    color: white;
+}
+.a__forgot__password:hover{
+    color: #A0A2ae;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form-btn__item{
+    align-items: center;
+    width: 152px;
+    height: 44px;
+    border-radius: 44px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    color: white;
+    margin-top: 22px;
+    outline: unset !important;
+}
+.form-btn--sign_in{
+    background-color: #FFC700;
+    margin-right: 36px;
+}
+.form-btn--sign_in:hover{
+    background-color: white;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    cursor: pointer;
+}
+.form-btn--sign_up{
+    background-color: #1D2646;
+    border: 1px solid white;
+}
+.form-btn--sign_up:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #1D2646;
+    cursor: pointer;
+}
+.trading__images{
+    text-align: center;
+}
 /* ========== END CONTENT LEFT: CARD ========== */
 
 
 /* ========== CONTENT RIGHT: IMAGES ========== */
+.img__bike{
+    width: 317px;
+    margin-top: 150px;
+}
 /* ========== END CONTENT RIGHT: IMAGES ========== */
 
 
@@ -39,85 +131,8 @@ body {
 /* ========== END RESPONSIVE ========== */
 
 
-.trading{
-    display: flex;
-    color: white;
-    margin: 0px !important;
-}
-.trading__card{
-    background-color: #1D2646;
-    height: 100vh;
-}
-.trading__card__heading {
-    font-size: 50px;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    font-family: "Open Sans", sans-serif;
-}
-.trading__card__greeting{
-    color: #A0A2ae;
-    margin-bottom: 70px;
-    font-size: 18px;
-}
-.trading__card__content{
-    display: flex;
-}
-.trading__input{
-    border: 0px;
-    display: flex;
-    width: 100%;
-    height: 47px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    padding: 0 30px;
-    background: #fff;
-}
-.trading__label{
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    margin-left: 9px;
-}
-.username{
-    margin-right: 109px;
-}
-.a__forgot__password{
-    margin-left: 9px;
-    font-size: 18px;
-}
-.btn__item{
-    align-items: center;
-    width: 152px;
-    height: 44px;
-    border-radius: 44px;
-    font-size: 20px;
-    font-weight: bold;
-    border: 0px;
-    color: white;
-    margin-top: 22px;
-}
-.btn--sign_in{
-    background-color: #FFC700;
-    margin-right: 36px;
-}
-.btn--sign_up{
-    background-color: #1D2646;
-    border: 1px solid white;
-}
-.trading__images{
-    text-align: center;
-}
-.img__bike{
-    width: 317px;
-    margin-top: 150px;
-}
 
 @media screen and (min-width : 1200px){
-    .trading{
-        display: flex;
-        color: white;
-        margin: 0px !important;
-    }
     .trading__card{
         padding-left: 61px;
     }
@@ -153,12 +168,12 @@ body {
         margin-top: 147px;
         margin-left: -26px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin-right: 32px;
     }
 }
 
-@media screen and (max-width : 576px){
+@media screen and (max-width : 767px){
     .trading__card{
         background-color: #00bcd4 ;
         position: relative;
@@ -171,7 +186,7 @@ body {
         top: -880px;
         right: 100px;
     }
-    .btn--sign_up{
+    .form-btn--sign_up{
         background-color: #00bcd4;
     }
     .trading__card__content {
@@ -183,7 +198,7 @@ body {
         margin-bottom: 0px;
         margin-top: 0px;
     }
-    .btn__item{
+    .form-btn__item{
         width: 120px;
         height: 32px;
         border-radius: 32px;
@@ -226,7 +241,7 @@ body {
     .trading__card__greeting {
         margin-bottom: 113px;
     }
-    .btn--sign_in {
+    .form-btn--sign_in {
         margin-right: 76px;
         margin-top: 27px;
     }
@@ -248,7 +263,7 @@ body {
     .trading__card__greeting {
         margin-bottom: 113px;
     }
-    .btn--sign_in {
+    .form-btn--sign_in {
         margin-right: 127px;
         margin-top: 27px;
     }
@@ -269,7 +284,7 @@ body {
     .trading__card__greeting {
         margin-bottom: 113px;
     }
-    .btn--sign_in {
+    .form-btn--sign_in {
         margin-right: 127px;
         margin-top: 27px;
     }
@@ -290,7 +305,7 @@ body {
     .trading__card__greeting{
         margin-bottom: 111px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin-right: 36px;
         margin-top: 27px;
     }
@@ -311,7 +326,7 @@ body {
     .trading__card__greeting{
         margin-bottom: 113px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin-right: 91px;
         margin-top: 27px;
     }
@@ -329,7 +344,7 @@ body {
 
 /* iphone6/7/8 plus */
 @media screen and (max-width : 576px) and (height: 736px) {
-    .btn--sign_in {
+    .form-btn--sign_in {
         margin: 27px 130px 0px 0px;
     }
     .trading__card {
@@ -351,7 +366,7 @@ body {
     .trading__card__greeting{
         margin-bottom: 113px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin: 27px 90px 0px 0px;
     }
     .trading__card {
@@ -411,13 +426,13 @@ body {
         font-size: 10px;
         margin-left: 5px;
     }
-    .btn__item{
+    .form-btn__item{
         width: 90px;
         height: 27px;
         font-size: 12px;
         margin-top: 11px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin-right: 18px;
     }
     .trading__card{
@@ -474,13 +489,13 @@ body {
         font-size: 15px;
         margin-left: 7px;
     }
-    .btn__item{
+    .form-btn__item{
         width: 120px;
         height: 36px;
         font-size: 16px;
         margin-top: 15px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin-right: 22px;
     }
     .trading__card{
@@ -493,7 +508,7 @@ body {
     .trading__card__greeting{
         margin-bottom: 113px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin: 27px 256px 0px 0px;
     }
     .trading__card {
@@ -512,7 +527,7 @@ body {
     .trading__card__greeting{
         margin-bottom: 113px;
     }
-    .btn--sign_in{
+    .form-btn--sign_in{
         margin: 27px 256px 0px 0px;
     }
     .trading__card {
