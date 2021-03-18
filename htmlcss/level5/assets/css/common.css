@@ -1,0 +1,82 @@
+/* ========== COMMON ========== */
+/* Những class nào dùng chung thì thả vào đây: ví dụ */
+.w32{
+    width: 32px;
+}
+
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+.fs20 {
+    font-size: 20px;
+}
+.fs24 {
+    font-size: 24px;
+}
+.fs28 {
+    font-size: 28px;
+}
+.fs32{
+    font-size: 32px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+img {
+    object-fit: cover;
+}
+
+.mr-auto{
+    margin-right: auto;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.mt100{
+    margin-top: 100px;
+}
+.mb48{
+    margin-bottom: 48px;
+}
+.mb0{
+    margin-bottom: 0px;
+}
+.cl-white{
+    color: white !important;
+}
+.bd0{
+    border: 0px;
+}
+
+.dp-flex{
+    display: flex;
+}
+
+.pd0{
+    padding: 0px;
+}
+.pdr12{
+    padding-right: 12px;
+}
+.pdl24{
+    padding-left: 24px !important;
+}
+.pdr24{
+    padding-right: 24px !important;
+}
+.jc-center{
+    justify-content: center;
+}
+/* Dùng các class này vào bên html, đỡ phải viết css. */
+
+
+/* ========== END COMMON ========== */

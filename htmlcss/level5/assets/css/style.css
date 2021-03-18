@@ -1,0 +1,310 @@
+
+.card-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgb(26,188,156,0.9);
+    border-radius: 10px;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.card:hover .card-overlay {
+    opacity: 1;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,p{
+    margin: 0px;
+}
+body {
+    background-color: #FFFFFF !important;
+    margin: 0;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    position: relative;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+#my-menu #my-title{
+    transition: 0.3s;
+}
+.freelancer__header {
+    background-color: #2C3E50;
+    color: white;
+    position: fixed;
+    z-index: 1030;
+    width: 100%;
+    padding: 23px;
+}
+.header__title:hover{
+    text-decoration: none;
+    color: white;
+}
+.freelancer__navbar{
+    padding: 8px 24px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.navbar-shrink{
+    padding-top: 8px;
+    padding-right: 8px;
+}
+.freelancer__navbar__button{
+    background-color: #1ABC9C;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.button__menu{
+    margin: 9px 5px 9px 0px ;
+}
+.menu__a{
+    color: #fff !important;
+    text-decoration: none;
+    float: left;
+    position: relative;
+    padding: 0px 20px;
+}
+.menu__a:hover {
+    color: #1ABC9C !important;
+    text-decoration:none ;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.main__start-boostrap{
+    background-color: #1ABC9C;
+    padding: 104px 0px 96px 0px;
+}
+.start-boostrap--h1{
+    font-size: 64px;
+}
+
+.freelancer__main--portfolio{
+    color: #2C3E50;
+    padding: 96px 0px;
+}
+.portfolio__img__item{
+    height: 240px;
+    width: 100%;
+    border-radius: 10px;
+}
+.img__avatar {
+    width: 240px;
+}
+
+.freelancer__main--about{
+    background-color: #1ABC9C;
+    padding: 96px 0px;
+}
+.divider-custom-line{
+    max-width: 102px;
+    height: 4px;
+    background-color: #2C3E50;
+    border-radius: 16px;
+    width: 100px;
+    margin: 0px 40px;
+}
+.star{
+    margin: 44px 0px 48px 0px;
+}
+.fa-star{
+    position: absolute;
+    top: -13px;
+    color: #2C3E50;
+}
+.about__p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+.about__btn{
+    padding: 16px 28px;
+    background-color: #1ABC9C;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.about__btn:hover{
+    background-color: white;
+    color: black !important;
+}
+.about__btn:focus{
+    box-shadow: 0px 0px 0px 3px #bce9e2;
+    outline: none;
+}
+
+.freelancer__main--contact{
+    padding: 96px 0px;
+}
+.contact__input{
+    padding: 0px 228px;
+}
+.contact__input__item{
+    border: 0px;
+    border-bottom: 1px solid #e9ecef;
+    display: block;
+    font-size: 24px;
+    width: 534px;
+    padding: 32px 0px;
+}
+.contact__input__item:focus{
+    outline: none;
+}
+.input--message{
+    padding: 32px 0px 174px;
+}
+.btn__send{
+    padding: 16px 28px;
+    margin: 22px 620px 0px 0px;
+    background-color: #1ABC9C;
+    border-radius: 10px;
+}
+.btn__send:hover{
+    background-color: #17A88B;
+}
+
+.contact--input--item:focus{
+    outline: none;
+}
+.contact__h1{
+    color: #2C3E50;
+}
+
+.freelancer__footer {
+    padding: 80px 0px;
+    background-color: #2C3E50;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.footer__p{
+    margin-top: 24px;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.footer__a{
+    color: #24B09C;
+}
+.footer__a:hover{
+    color: #167964;
+}
+.copyright{
+    background-color: #1A252F;
+    padding: 24px;
+}
+/* ========== HEADER ========== */
+
+/* ========== END CONTENT RIGHT: IMAGES ========== */
+
+
+/* ========== RESPONSIVE ========== */
+/*
+    xs = Extra small < 576px
+    sm = Small ≥ 576px: Max container width 540px
+    md = Medium ≥768px: Max container width 720px
+    lg = Large ≥992px: Max container width 960px
+    xl = Extra large ≥1200px: Max container width 1140px
+*/
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+    .navbar-nav{
+        margin-left: 310px;
+    }
+}
+
+@media (max-width: 992px) {
+    h1{
+        font-size: 36px;
+    }
+    .start-boostrap--p{
+        font-size: 20px;
+    }
+    .start-boostrap--h1{
+         font-size: 44px;
+     }
+    .menu__a{
+        padding: 0 10px;
+        color: #fff;
+        text-decoration: none;
+        float: left;
+        position: relative;
+    }
+    .main__start-boostrap{
+        background-color: #1ABC9C;
+        padding: 104px 0px 96px 0px;
+    }
+    .navbar-nav{
+        margin-left: 293px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+/* ========== END RESPONSIVE ========== */
+
+
+@media screen and (min-width: 1200px) {
+}
+@media screen and (max-width: 767px) {
+}
+
+/* Galaxy S5 */
+@media screen and (width: 360px) and (height: 640px) {
+}
+/* Pixel 2 */
+@media screen and (width: 411px) and (height: 731px) {
+}
+/* Pixel 2XL */
+@media screen and (width: 411px) and (height: 823px) {
+}
+
+/* iphone5/SE */
+@media screen and (width: 320px) and (height: 568px) {
+}
+
+/* iphone6/7/8 */
+@media screen and (max-width: 576px) and (height: 667px) {
+}
+
+/* iphone6/7/8 plus */
+@media screen and (max-width: 576px) and (height: 736px) {
+}
+
+/* iphone X */
+@media screen and (max-width: 576px) and (height: 812px) {
+
+}
+
+/* Ipad */
+@media screen and (max-width: 768px) and (height: 1024px) {
+}
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) and (height: 1366px) {
+}
+
+/* Surface Duo */
+@media screen and (max-width: 576px) and (height: 720px) {
+}
+/* Galaxy Fold */
+@media screen and (max-width: 576px) and (height: 720px) {
+
+}
+
+
+
+
