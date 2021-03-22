@@ -44,8 +44,17 @@ img {
 .mt100{
     margin-top: 100px;
 }
+.mt96{
+    margin-top: 96px;
+}
 .mb48{
     margin-bottom: 48px;
+}
+.mb38{
+    margin-bottom: 38px;
+}
+.mb24{
+    margin-bottom: 24px !important;
 }
 .mb0{
     margin-bottom: 0px;
@@ -67,6 +76,12 @@ img {
 .pdr12{
     padding-right: 12px;
 }
+.pdl22{
+    padding-left: 22px !important;
+}
+.pdr22{
+    padding-right: 22px !important;
+}
 .pdl24{
     padding-left: 24px !important;
 }
@@ -75,6 +90,9 @@ img {
 }
 .jc-center{
     justify-content: center;
+}
+.w-13{
+    width: 13px !important;
 }
 /* Dùng các class này vào bên html, đỡ phải viết css. */
 

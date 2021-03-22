@@ -17,15 +17,13 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-<div class="wrapper">
-    <div id = "Scrollspy" data-spy = "scroll" data-target = ".freelancer__header" data-offset = "50">
-        <div class="row freelancer__header" id="my-menu">
-            <nav class="container navbar freelancer__navbar navbar-expand-lg navbar-dark" id="my-nav">
+<body data-spy="scroll" data-target=".freelancer__header" data-offset="50">
+    <nav class="freelancer__header" id="my-menu">
+        <div class="container navbar freelancer__navbar navbar-expand-lg navbar-dark" id="my-nav">
             <a class="header__title fw-bold cl-white fs28" id="my-title" href="https://startbootstrap.github.io/startbootstrap-freelancer/#page-top">START BOOTSTRAP</a>
-            <button class="navbar-toggler freelancer__navbar__button" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <h5 class="button__menu cl-white fw-bold fs12">MENU</h5>
-                <span class="navbar-toggler-icon fs12"></span>
+            <button class="navbar-toggler freelancer__navbar__button font-weight-bold cl-white" data-toggle="collapse" data-target="#collapsibleNavbar">
+                MENU
+                <i class="fas fa-bars w-13"></i>
             </button>
             <div class="collapse menu navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
@@ -40,11 +38,11 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <div class="freelancer__main">
         <div class="main__start-boostrap cl-white">
-            <img class="img__avatar mt100 mb48" src="assets/images/avatar.svg">
+            <img class="img__avatar mt96 mb38" src="assets/images/avatar.svg">
             <h1 class="start-boostrap--h1 mb0">START BOOTSTRAP</h1>
             <div class="star d-flex jc-center position-relative">
                 <div class="divider-custom-line bg-white"></div>
@@ -61,50 +59,50 @@
                 <div class="divider-custom-line"></div>
             </div>
             <div class="row portfolio__img">
-                <div class="col-md-6 col-lg-4 ">
-                    <div class="card mb48 bd0">
+                <div class="col-md-6 col-lg-4 pdl24 pdr24">
+                    <div class="card bd0 ml-auto mr-auto">
                         <img class="portfolio__img__item card-img-top" src="assets/images/cabin.png" alt="Card image cap">
                         <div class="card-overlay dp-flex fs24 cl-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 ">
-                    <div class="card mb48 bd0">
+                <div class="col-md-6 col-lg-4 pdl24 pdr24">
+                    <div class="card bd0 ml-auto mr-auto">
                         <img class="portfolio__img__item card-img-top" src="assets/images/cake.png" alt="Card image cap">
                         <div class="card-overlay dp-flex fs24 cl-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 ">
-                    <div class="card mb48 bd0">
+                <div class="col-md-6 col-lg-4 pdl24 pdr24">
+                    <div class="card bd0 ml-auto mr-auto">
                         <img class="portfolio__img__item card-img-top" src="assets/images/circus.png" alt="Card image cap">
                         <div class="card-overlay dp-flex fs24 cl-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 ">
-                    <div class="card mb48 bd0">
+                <div class="col-md-6 col-lg-4 pdl24 pdr24">
+                    <div class="card bd0 ml-auto mr-auto">
                         <img class="portfolio__img__item card-img-top" src="assets/images/game.png" alt="Card image cap">
                         <div class="card-overlay dp-flex fs24 cl-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 ">
-                    <div class="card mb48 bd0">
+                <div class="col-md-6 col-lg-4 pdl24 pdr24">
+                    <div class="card bd0 ml-auto mr-auto">
                         <img class="portfolio__img__item card-img-top" src="assets/images/safe.png" alt="Card image cap">
                         <div class="card-overlay dp-flex fs24 cl-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 ">
-                    <div class="card mb48 bd0">
+                <div class="col-md-6 col-lg-4 pdl24 pdr24">
+                    <div class="card bd0 ml-auto mr-auto">
                         <img class="portfolio__img__item card-img-top" src="assets/images/submarine.png" alt="Card image cap">
-                        <div class="card-overlay dp-flex fs24 cl-whie">
+                        <div class="card-overlay dp-flex fs24 cl-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
@@ -130,42 +128,55 @@
                             add your email address to the contact form to make it fully functional!</p>
                     </div>
                 </div>
-                <button class="btn about__btn fs20 cl-white"
-                        onclick="window.location.href='https://startbootstrap.com/theme/freelancer'">Free Download!
-                </button>
+                <div class=" ">
+                    <a class="btn about__btn fs20 cl-white" href="https://startbootstrap.com/theme/freelancer/">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        Free Download!
+                    </a>
+                </div>
+
             </div>
         </div>
-        <div class="freelancer__main--contact container" id="contact">
-            <h1 class="contact__h1">CONTACT ME></h1>
-            <div class="star d-flex jc-center position-relative">
-                <div class="divider-custom-line"></div>
-                <i class="fs32 fa fa-star "></i>
-                <div class="divider-custom-line"></div>
+        <div class="freelancer__main--contact" id="contact">
+            <div class="container">
+                <h1 class="contact__h1">CONTACT ME</h1>
+                <div class="star d-flex jc-center position-relative">
+                    <div class="divider-custom-line"></div>
+                    <i class="fs32 fa fa-star "></i>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row contact__input">
+                    <div class="col-lg-8 mx-auto">
+                        <input class="contact__input__item input--name" placeholder="Name">
+                        <input class="contact__input__item input--email" placeholder="Email Address">
+                        <input class="contact__input__item input--phone" placeholder="Phone Number">
+                        <input class="contact__input__item input--message" placeholder="Message">
+                    </div>
+                </div>
+                <button class="btn btn__send fs20 cl-white bd0">Send</button>
             </div>
-            <div class="row contact__input">
-                    <input class="contact__input__item input--name" placeholder="Name">
-                    <input class="contact__input__item input--email" placeholder="Email Address">
-                    <input class="contact__input__item input--phone" placeholder="Phone Number">
-                    <input class="contact__input__item input--message" placeholder="Message">
-            </div>
-            <button class="btn btn__send fs20 cl-white bd0">Send</button>
         </div>
     </div>
     <div class="freelancer__footer cl-white">
         <div class="container pd0">
             <div class="row">
-                <div class="col-lg-4 pdl24 pdr24">
-                    <h4 class="mb0 fw-bold">LOCATION</h4>
-                    <p class="footer__p fs20 pdr12">2215 John Daniel Drive
+                <div class="col-lg-4 pdl24 pdr24 mb48">
+                    <h4 class="mb24 fw-bold">LOCATION</h4>
+                    <p class="footer__p footer__p__left fs20 px-4">2215 John Daniel Drive </br>
                         Clark, MO 65243</p>
                 </div>
-                <div class="col-lg-4 pdl24 pdr24">
-                    <h4 class="mb0 fw-bold">AROUND THE WEB</h4>
+                <div class="col-lg-4 pdl24 pdr24 mb48">
+                    <h4 class="fw-bold mb24">AROUND THE WEB</h4>
+                    <a class="btn btn-outline-light" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
                 </div>
-                <div class="col-lg-4 pdl24 pdr24">
-                    <h4 class="mb0 fw-bold">ABOUT FREELANCER</h4>
-                    <p class="footer__p fs20">Freelance is a free to use, MIT licensed Bootstrap theme created by
+                <div class="col-lg-4 pdl24 pdr24 mb48">
+                    <h4 class="mb24 fw-bold">ABOUT FREELANCER</h4>
+                    <p class="footer__p footer__p__right fs20">Freelance is a free to use, MIT licensed Bootstrap theme created by
                         <a class="footer__a" href="https://startbootstrap.com/"> Start Boostrap</a>
+                        .
                     </p>
                 </div>
             </div>
@@ -175,14 +186,13 @@
     <div class="copyright cl-white">
         <small>Copyright © Your Website 2020</small>
     </div>
-</div>
 
 <script>
     // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200 ) {
             document.getElementById("my-menu").style.padding = "10px 10px";
             document.getElementById("my-title").style.fontSize = "24px";
         } else {
@@ -191,6 +201,10 @@
         }
     }
 </script>
+
+<!-- Scrollpcy -->
+<script src="assets/js/scrollspy.js"></script>
+
 <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -201,6 +215,7 @@
 <!-- Bootstrap core JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/libs/bootstrap4/js/bootstrap.js"></script>
+
 </body>
 
 </html>
