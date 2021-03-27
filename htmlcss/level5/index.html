@@ -6,11 +6,11 @@
     <link rel="icon" href="assets/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Libs -->
-    <link rel="stylesheet" type="text/css" href="assets/libs/bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/libs/bootstrap4/css/bootstrap.css">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />    <!-- my style -->
+    <link rel="stylesheet" href="assets/font/Montserrat.css"/>
+    <link rel="stylesheet" href="assets/font/font-Lato.css"/>
 
     <!-- My Style -->
     <link rel="stylesheet" href="./assets/css/common.css">
@@ -29,13 +29,13 @@
             </button>
             <div class="collapse menu navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item ml4 mr4">
                         <a class="menu__a fw-bold" href="#portfolio">PORTFOLIO</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml4 mr4">
                         <a class="menu__a fw-bold" href="#about">ABOUT</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ml4 mr4">
                         <a class="menu__a fw-bold" href="#contact">CONTACT</a>
                     </li>
                 </ul>
@@ -46,16 +46,16 @@
     <!-- Main -->
     <div class="freelancer__main">
 
-        <!-- Main-Start boostrap -->
-        <div class="main__start-boostrap cl-white">
+        <!-- Main-Start bootstrap -->
+        <div class="main__start-bootstrap cl-white">
             <img class="img__avatar mt96 mb38" src="assets/images/avatar.svg">
-            <h1 class="start-boostrap--h1 mb0">START BOOTSTRAP</h1>
+            <h1 class="start-bootstrap--h1 mb0">START BOOTSTRAP</h1>
             <div class="star d-flex jc-center position-relative">
                 <div class="divider-custom-line bg-white"></div>
                 <i class="fs32 fa fa-star cl-white"></i>
                 <div class="divider-custom-line bg-white"></div>
             </div>
-            <p class="start-boostrap--p fs24">Graphic Artist - Web Designer - Illustrator</p>
+            <p class="start-bootstrap--p fs24">Graphic Artist - Web Designer - Illustrator</p>
         </div>
 
         <!-- Main-Portfolio -->
@@ -189,7 +189,7 @@
                 <div class="col-lg-4 pdl24 pdr24 mb48">
                     <h4 class="mb24 fw-bold">ABOUT FREELANCER</h4>
                     <p class="footer__p footer__p__right fs20">Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a class="footer__a" href="https://startbootstrap.com/"> Start Boostrap</a>
+                        <a class="footer__a" href="https://startbootstrap.com/"> Start Bootstrap</a>
                         .
                     </p>
                 </div>
@@ -207,25 +207,22 @@
 
     function scrollFunction() {
         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200 ) {
-            document.getElementById("my-menu").style.padding = "10px 10px";
+            document.getElementById("my-menu").style.padding = "8px 8px";
             document.getElementById("my-title").style.fontSize = "24px";
         } else {
-            document.getElementById("my-menu").style.padding = "23px 23px";
+            document.getElementById("my-menu").style.padding = "24px 24px";
             document.getElementById("my-title").style.fontSize = "28px";
         }
     }
 </script>
 
 <!-- Plugin JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="assets/libs/bootstrap4/js/bootstrap.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+<script src="assets/libs/jquery/scroll.js"></script>
+<script src="assets/libs/bootstrap4/js/bootstrap.js"></script>
+<script src="assets/libs/fontawesome/fontawesome.js" crossorigin="anonymous"></script>
 
 <!-- Scrollpcy -->
 <script src="assets/js/scrollspy.js"></script>
 
 </body>
-
 </html>
