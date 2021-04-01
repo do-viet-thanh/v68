@@ -1,31 +1,33 @@
 /* ========== COMMON ========== */
 /* Những class nào dùng chung thì thả vào đây: ví dụ */
-.w32{
+.w-32{
     width: 32px;
 }
+.w-13{
+    width: 13px !important;
+}
 
-
-.fs12 {
+.fs-12 {
     font-size: 12px;
 }
 
-.fs14 {
+.fs-14 {
     font-size: 14px;
 }
 
-.fs18 {
+.fs-18 {
     font-size: 18px;
 }
-.fs20 {
+.fs-20 {
     font-size: 20px;
 }
-.fs24 {
+.fs-24 {
     font-size: 24px;
 }
-.fs28 {
+.fs-28 {
     font-size: 28px;
 }
-.fs32{
+.fs-32{
     font-size: 32px;
 }
 .fw-bold{
@@ -41,65 +43,58 @@ img {
 .ml-auto{
     margin-left: auto;
 }
-.mt100{
+.mt-100{
     margin-top: 100px;
 }
-.mt96{
+.mt-96{
     margin-top: 96px;
 }
-.mb48{
+.mb-48{
     margin-bottom: 48px;
 }
-.mb38{
+.mb-38{
     margin-bottom: 38px;
 }
-.mb24{
+.mb-24{
     margin-bottom: 24px !important;
 }
-.mb0{
+.mb-0{
     margin-bottom: 0px;
 }
-.ml4{
-    margin-left: 4px;
+.ml-4{
+    margin-left: 4px !important;
 }
-.mr4{
-    margin-right: 4px;
+.mr-4{
+    margin-right: 4px !important;
 }
 .cl-white{
     color: white !important;
 }
-.bd0{
+.b-0{
     border: 0px;
 }
-
-.dp-flex{
-    display: flex;
-}
-
-.pd0{
+.p-0{
     padding: 0px;
 }
-.pdr12{
+.pr-12{
     padding-right: 12px;
 }
-.pdl22{
+.pl-22{
     padding-left: 22px !important;
 }
-.pdr22{
+.pr-22{
     padding-right: 22px !important;
 }
-.pdl24{
+.pl-24{
     padding-left: 24px !important;
 }
-.pdr24{
+.pr-24{
     padding-right: 24px !important;
 }
 .jc-center{
     justify-content: center;
 }
-.w-13{
-    width: 13px !important;
-}
+
 /* Dùng các class này vào bên html, đỡ phải viết css. */
 
 

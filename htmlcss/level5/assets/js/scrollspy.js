@@ -5,7 +5,24 @@ $(document).ready(function () {
 var StyleController = {
     init: function () {
         console.log('Running jquery/javascript');
+
+        $('#a').click(function () {
+            StyleController.scrollTo('.freelancer__main--portfolio');
+        });
+        $('#b').click(function () {
+            StyleController.scrollTo('.freelancer__main--about');
+        });
+        $('#c').click(function () {
+            StyleController.scrollTo('.freelancer__main--contact');
+        });
     },
+
+    scrollTo: function (id, offset) {
+        var speed = 800;
+        var target = $(id ? id : 'html');
+        var position = target.offset().top - (offset ? offset : 40);
+        $("html, body").animate({scrollTop: position}, speed, "swing");
+    }
 };
 
 $(window).scroll(function () {
@@ -23,8 +40,7 @@ $(window).scroll(function () {
             $('#top-nav > ul > li').removeClass("active");
             //Add class active
             curLink.parent().addClass("active");
-        }
-        else {
+        } else {
             curLink.parent().removeClass("active");
         }
     });
